@@ -3,7 +3,7 @@ pragma solidity 0.8.18;
 
 contract BarbieCoin {
     string public tokenName = "BarbieCoin";
-    string public tokenAbbrv = "BBC";
+    string public tokenAbbrv = "BC";
     uint256 public totalSupply;
 
     mapping(address => uint256) public balances;
